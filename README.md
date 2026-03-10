@@ -1,3 +1,4 @@
+# JITHIN CHOWDARY
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,9 +11,18 @@ body{
     margin:0;
     padding:0;
     font-family: Arial, sans-serif;
-    background: linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+    background:#0f2027;
     color:white;
     text-align:center;
+}
+
+#particles-js{
+    position:fixed;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    z-index:-1;
 }
 
 .container{
@@ -20,10 +30,11 @@ body{
 }
 
 .profile{
-    width:120px;
-    height:120px;
-    border-radius:50%;
-    border:4px solid white;
+width:120px;
+height:120px;
+border-radius:50%;
+border:4px solid gold;
+margin-bottom:10px;
 }
 
 h1{
@@ -69,9 +80,11 @@ h1{
 
 <body>
 
+<div id="particles-js"></div>
+
 <div class="container">
 
-<img src="https://i.imgur.com/0y0y0y0.png" class="profile">
+<img src="https://i.imgur.com/kingdom.jpg" class="profile">
 
 <h1>JITHIN</h1>
 
@@ -79,15 +92,15 @@ h1{
 
 <div class="links">
 
-<a href="#" class="btn">Instagram</a>
+<a href="https://www.instagram.com/jithin_chowdary_" class="btn" target="_blank">Instagram</a>
 
-<a href="#" class="btn">YouTube</a>
+<a href="https://youtube.com/@jithingamingyt-i2l" class="btn" target="_blank">YouTube - Jithin Gaming</a>
 
-<a href="#" class="btn">Discord</a>
+<a href="https://discord.gg/mtK2PSg6uP" class="btn" target="_blank">Join My Discord Server</a>
 
-<a href="#" class="btn">My Projects</a>
+<a href="https://discord.com/users/1267791203781443634" class="btn" target="_blank">My Discord Profile</a>
 
-<a href="#" class="btn">Contact Me</a>
+<a href="https://github.com/madalajithin/JITHIN-CHOWDARY" class="btn" target="_blank">GitHub - Jithin Chowdary</a>
 
 </div>
 
@@ -97,5 +110,33 @@ h1{
 
 </div>
 
+<script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+
+<script>
+particlesJS("particles-js", {
+  "particles": {
+    "number": { "value": 80 },
+    "color": { "value": "#ffffff" },
+    "shape": { "type": "circle" },
+    "opacity": { "value": 0.5 },
+    "size": { "value": 3 },
+    "line_linked": {
+      "enable": true,
+      "distance": 150,
+      "color": "#ffffff",
+      "opacity": 0.4,
+      "width": 1
+    },
+    "move": { "enable": true, "speed": 3 }
+  },
+  "interactivity": {
+    "events": {
+      "onhover": { "enable": true, "mode": "repulse" }
+    }
+  },
+  "retina_detect": true
+});
+</script>
+
 </body>
-</html># Index.-Html
+</html>
