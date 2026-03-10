@@ -10,9 +10,11 @@ body{
     margin:0;
     padding:0;
     font-family: Arial, sans-serif;
-    background: linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+    background: url("YOUR_IMAGE_LINK") no-repeat center center/cover;
     color:white;
     text-align:center;
+}
+</style>
 }
 
 .container{
@@ -83,11 +85,11 @@ h1{
 
 <a href="#" class="btn">YouTube</a>
 
-<a href="#" class="btn">Discord</a>
+<a href="https://discord.com/users/1267791203781443634" class="btn" target="_blank">My Discord Profile</a>
 
-<a href="#" class="btn">My Projects</a>
+<a href="https://github.com/madalajithin/JITHIN-CHOWDARY" class="btn" target="_blank">GitHub - Jithin Chowdary</a>
 
-<a href="#" class="btn">Contact Me</a>
+<a href="https://discord.gg/mtK2PSg6uP" class="btn" target="_blank">Join My Discord Server</a>
 
 </div>
 
